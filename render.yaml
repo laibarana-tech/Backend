@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: onnx-api
+    env: python
+    buildCommand: ""
+    startCommand: "bash start.sh"
